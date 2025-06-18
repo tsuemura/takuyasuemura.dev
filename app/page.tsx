@@ -1,3 +1,5 @@
+import { XIcon } from "@/components/icons"
+
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
@@ -140,10 +142,17 @@ export default function Home() {
 
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-black mb-4">Contact</h2>
-          <div className="flex gap-4">
-            <a href="https://github.com/tsuemura" className="text-gray-600 hover:text-black transition-colors">GitHub</a>
-            <a href="https://www.linkedin.com/in/takuya-suemura-456343189/" className="text-gray-600 hover:text-black transition-colors">LinkedIn</a>
-            <a href="mailto:tsuemura@gmail.com" className="text-gray-600 hover:text-black transition-colors">Email</a>
+          <div className="flex gap-6">
+            <a href="https://github.com/tsuemura" className="text-gray-600 hover:text-black transition-colors">
+              GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/takuya-suemura-456343189/" className="text-gray-600 hover:text-black transition-colors">
+              LinkedIn
+            </a>
+            <a href="https://x.com/tsueeemura" className="text-gray-600 hover:text-black transition-colors inline-flex items-center gap-2">
+              <XIcon className="w-4 h-4" />
+              <span>@tsueeemura</span>
+            </a>
           </div>
         </section>
       </div>
