@@ -92,7 +92,10 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-black mb-4">Work Opportunities</h2>
           <div className="grid gap-8 md:grid-cols-2">
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-black mb-3">フルタイム</h3>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-medium text-black">フルタイム</h3>
+                <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">9.2M/year</span>
+              </div>
               <div className="space-y-3">
                 <div>
                   <p className="text-sm font-medium text-gray-900 mb-1">条件</p>
@@ -112,7 +115,10 @@ export default function Home() {
             </div>
             
             <div className="border border-gray-200 rounded-lg p-6">
-              <h3 className="text-xl font-medium text-black mb-3">副業・業務委託</h3>
+              <div className="flex items-center justify-between mb-3">
+                <h3 className="text-xl font-medium text-black">副業・業務委託</h3>
+                <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">30k/hour</span>
+              </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
                   <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
