@@ -87,6 +87,58 @@ export default function Home() {
         </section>
 
         <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-black mb-4">Work Opportunities</h2>
+          <div className="grid gap-8 md:grid-cols-2">
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="text-xl font-medium text-black mb-3">フルタイム</h3>
+              <div className="space-y-3">
+                <div>
+                  <p className="text-sm font-medium text-gray-900 mb-1">条件</p>
+                  <ul className="text-gray-700 space-y-1 text-sm list-disc list-inside">
+                    <li>年収920万円以上（ボーナス除く）</li>
+                    <li>ストックオプション or 従業員持株制度 必須</li>
+                  </ul>
+                </div>
+                <div>
+                  <p className="text-sm font-medium text-gray-900 mb-1">応募条件</p>
+                  <p className="text-gray-700 text-sm">
+                    末村とぜひ働きたいと思う方からのお声がけのみお受けします
+                    <span className="text-gray-500">（直接の知り合いでなくても可）</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+            
+            <div className="border border-gray-200 rounded-lg p-6">
+              <h3 className="text-xl font-medium text-black mb-3">副業・業務委託</h3>
+              <div className="space-y-3">
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                  <div>
+                    <p className="font-medium text-gray-900 text-sm">講演依頼</p>
+                    <p className="text-gray-600 text-sm">テスト自動化・品質保証に関する講演</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                  <div>
+                    <p className="font-medium text-gray-900 text-sm">コンサルタント</p>
+                    <p className="text-gray-600 text-sm">品質改善・テスト戦略の策定支援</p>
+                  </div>
+                </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                  <div>
+                    <p className="font-medium text-gray-900 text-sm">自動テスト基盤構築</p>
+                    <p className="text-gray-600 text-sm">CI/CD環境でのテスト自動化実装</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12">
           <h2 className="text-2xl font-semibold text-black mb-4">Contact</h2>
           <div className="flex gap-4">
             <a href="https://github.com/tsuemura" className="text-gray-600 hover:text-black transition-colors">GitHub</a>
