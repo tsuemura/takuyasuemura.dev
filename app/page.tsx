@@ -142,7 +142,7 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-black mb-4">Contact</h2>
           <div className="flex gap-4">
             <a href="https://github.com/tsuemura" className="text-gray-600 hover:text-black transition-colors">GitHub</a>
-            <a href="https://www.linkedin.com/in/takuya-suemura/" className="text-gray-600 hover:text-black transition-colors">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/takuya-suemura-456343189/" className="text-gray-600 hover:text-black transition-colors">LinkedIn</a>
             <a href="mailto:tsuemura@gmail.com" className="text-gray-600 hover:text-black transition-colors">Email</a>
           </div>
         </section>
