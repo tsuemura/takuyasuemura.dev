@@ -6,7 +6,7 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <header className="mb-16">
           <div className="flex items-center gap-6 mb-6">
-            <img src="https://pbs.twimg.com/profile_images/1722964011455823872/zCpchVAf_400x400.jpg" alt="Takuya Suemura" className="w-20 h-20 rounded-full shadow-lg object-cover" />
+            <img src={`${process.env.NODE_ENV === 'production' ? '/takuyasuemura.dev' : ''}/avatar.jpg`} alt="Takuya Suemura" className="w-20 h-20 rounded-full shadow-lg object-cover" />
             <div>
               <h1 className="text-4xl font-bold text-black mb-2">Takuya Suemura</h1>
               <p className="text-xl text-gray-600">Software Engineer / Test Automation Specialist</p>
