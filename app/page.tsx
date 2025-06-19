@@ -98,11 +98,23 @@ export default function Home() {
               </div>
               <div className="space-y-3">
                 <div>
-                  <p className="text-sm font-medium text-gray-900 mb-1">条件</p>
-                  <ul className="text-gray-700 space-y-1 text-sm list-disc list-inside">
-                    <li>年収920万円以上（ボーナス除く）</li>
-                    <li>ストックオプション or 従業員持株制度 必須</li>
-                  </ul>
+                  <p className="text-sm font-medium text-gray-900 mb-2">募集職種</p>
+                  <div className="space-y-3">
+                    <div className="flex items-start gap-3">
+                      <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                      <div>
+                        <p className="font-medium text-gray-900 text-sm">QA・自動テストリード</p>
+                        <p className="text-gray-600 text-sm">品質保証戦略の策定と自動テスト基盤の構築</p>
+                      </div>
+                    </div>
+                    <div className="flex items-start gap-3">
+                      <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                      <div>
+                        <p className="font-medium text-gray-900 text-sm">DevOpsエンジニア</p>
+                        <p className="text-gray-600 text-sm">CI/CDパイプラインの構築と開発生産性の向上</p>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div>
                   <p className="text-sm font-medium text-gray-900 mb-1">応募条件</p>
