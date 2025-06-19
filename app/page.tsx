@@ -6,15 +6,17 @@ export default function Home() {
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <header className="mb-16">
           <h1 className="text-4xl font-bold text-black mb-4">Takuya Suemura</h1>
-          <p className="text-xl text-gray-600">Quality Evangelist</p>
+          <p className="text-xl text-gray-600">Software Engineer / Test Automation Specialist</p>
         </header>
         
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-black mb-4">About</h2>
           <p className="text-gray-700 leading-relaxed">
-            ソフトウェアテストと品質保証の専門家として、テスト自動化の推進と品質文化の醸成に取り組んでいます。
-            「テスト自動化実践ガイド」の著者として、またJaSST OnlineやTokyo Test Festの実行委員として、
-            ソフトウェアテストコミュニティの発展に貢献しています。
+            テスト自動化、品質保証、DevOps、スクラムを専門とするソフトウェアエンジニアです。
+            開発とQAの分離解消、頻発するシステム障害を減らすためのアジャイル開発プロセス改善、
+            テスト自動化の価値と投資価値の実証など、組織の課題解決に取り組んでいます。
+            Software Engineer in Test（SET）として、E2Eテストやテスト自動化基盤の構築・運用に豊富な経験を持ち、
+            BDD/ATDDの実践にも精通しています。
           </p>
         </section>
 
@@ -59,13 +61,13 @@ export default function Home() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-black mb-4">Publications</h2>
           <div className="grid gap-6">
-            <a href="https://www.amazon.co.jp/dp/4297138360" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
-              <h3 className="text-xl font-medium text-black mb-2">テスト自動化実践ガイド</h3>
-              <p className="text-gray-600">ソフトウェアテスト自動化の実践的な手法をまとめた書籍を執筆</p>
+            <a href="https://www.shoeisha.co.jp/book/detail/9784798172354" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
+              <h3 className="text-xl font-medium text-black mb-2">テスト自動化実践ガイド 継続的にWebアプリケーションを改善するための知識と技法</h3>
+              <p className="text-gray-600">著者：末村拓也 - 翔泳社（2024年7月刊行）</p>
             </a>
-            <a href="https://www.oreilly.co.jp/books/9784814400591/" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
-              <h3 className="text-xl font-medium text-black mb-2">フルスタックテスティング</h3>
-              <p className="text-gray-600">Janet Gregory & Lisa Crispin著 - 日本語版レビュアー</p>
+            <a href="https://www.shoeisha.co.jp/book/detail/9784798190471" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
+              <h3 className="text-xl font-medium text-black mb-2">フルスタックテスティング 10のテスト手法で実践する高品質ソフトウェア開発</h3>
+              <p className="text-gray-600">原著：Gayathri Mohan - 翻訳：末村拓也、堀明子、松浦隼人 - 翔泳社（2025年7月刊行予定）</p>
             </a>
           </div>
         </section>
@@ -131,6 +133,22 @@ export default function Home() {
                 </div>
               </div>
             </div>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-semibold text-black mb-4">品質・自動テストに関するオンラインディスカッション</h2>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            品質・自動テストに関するオンラインディスカッションを受け付けています（無料・30分）
+          </p>
+          <div className="border border-gray-200 rounded-lg overflow-hidden">
+            <iframe 
+              width="100%" 
+              height="600" 
+              src="https://booking.receptionist.jp/5bb166d5-630b-42f8-8061-1aefb10cb937/30min"
+              className="w-full"
+              style={{minHeight: '600px'}}
+            />
           </div>
         </section>
 
