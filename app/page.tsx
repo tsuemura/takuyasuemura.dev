@@ -5,8 +5,13 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <div className="max-w-4xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <header className="mb-16">
-          <h1 className="text-4xl font-bold text-black mb-4">Takuya Suemura</h1>
-          <p className="text-xl text-gray-600">Software Engineer / Test Automation Specialist</p>
+          <div className="flex items-center gap-6 mb-6">
+            <img src="/avatar.svg" alt="Takuya Suemura" className="w-20 h-20 rounded-full shadow-lg" />
+            <div>
+              <h1 className="text-4xl font-bold text-black mb-2">Takuya Suemura</h1>
+              <p className="text-xl text-gray-600">Software Engineer / Test Automation Specialist</p>
+            </div>
+          </div>
         </header>
         
         <section className="mb-12">
@@ -60,14 +65,34 @@ export default function Home() {
 
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-black mb-4">Publications</h2>
-          <div className="grid gap-6">
+          <div className="grid gap-8">
             <a href="https://www.shoeisha.co.jp/book/detail/9784798172354" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
-              <h3 className="text-xl font-medium text-black mb-2">テスト自動化実践ガイド 継続的にWebアプリケーションを改善するための知識と技法</h3>
-              <p className="text-gray-600">著者：末村拓也 - 翔泳社（2024年7月刊行）</p>
+              <div className="flex gap-6">
+                <div className="flex-shrink-0">
+                  <img src="https://www.seshop.com/static/images/product/25037/L.png" alt="テスト自動化実践ガイド" className="w-32 h-auto rounded shadow-sm" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-medium text-black mb-2">テスト自動化実践ガイド 継続的にWebアプリケーションを改善するための知識と技法</h3>
+                  <p className="text-gray-600 mb-3">著者：末村拓也 - 翔泳社（2024年7月刊行）</p>
+                  <p className="text-gray-700 text-sm leading-relaxed">
+                    Webアプリケーションの効果的なテスト自動化を実装するための実践的なガイド。テスト自動化の目的理解から、E2Eテストの実装、開発プロセスの改善、トラブルシューティング技法まで、CodeceptJSとPlaywrightを使用したハンズオン形式で学べる352ページの実践書。
+                  </p>
+                </div>
+              </div>
             </a>
             <a href="https://www.shoeisha.co.jp/book/detail/9784798190471" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
-              <h3 className="text-xl font-medium text-black mb-2">フルスタックテスティング 10のテスト手法で実践する高品質ソフトウェア開発</h3>
-              <p className="text-gray-600">原著：Gayathri Mohan - 翻訳：末村拓也、堀明子、松浦隼人 - 翔泳社（2025年7月刊行予定）</p>
+              <div className="flex gap-6">
+                <div className="flex-shrink-0">
+                  <img src="https://www.seshop.com/static/images/product/26980/L.png" alt="フルスタックテスティング" className="w-32 h-auto rounded shadow-sm" />
+                </div>
+                <div className="flex-1">
+                  <h3 className="text-xl font-medium text-black mb-2">フルスタックテスティング 10のテスト手法で実践する高品質ソフトウェア開発</h3>
+                  <p className="text-gray-600 mb-3">原著：Gayathri Mohan - 翻訳：末村拓也、堀明子、松浦隼人 - 翔泳社（2025年7月刊行予定）</p>
+                  <p className="text-gray-700 text-sm leading-relaxed">
+                    高品質なソフトウェア開発のための10の包括的なテスト手法を網羅。手動探索テスト、自動テスト、継続的テスト、データテスト、ビジュアルテスト、パフォーマンステスト、セキュリティテスト、アクセシビリティテスト、横断機能要件テスト、モバイルテストなど、現代のソフトウェア開発に必要なテスト知識を体系的に習得できる456ページの専門書。
+                  </p>
+                </div>
+              </div>
             </a>
           </div>
         </section>
