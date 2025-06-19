@@ -57,34 +57,16 @@ export default function Home() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-black mb-4">Education & Certifications</h2>
-          <div className="grid gap-4">
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 bg-black rounded-full"></div>
-              <span className="text-gray-700">JSTQB Foundation Level (2019)</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 bg-black rounded-full"></div>
-              <span className="text-gray-700">物流管理2級</span>
-            </div>
-            <div className="flex items-center gap-3">
-              <div className="w-2 h-2 bg-black rounded-full"></div>
-              <span className="text-gray-700">VBAエキスパート スタンダード</span>
-            </div>
-          </div>
-        </section>
-
-        <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-black mb-4">Projects</h2>
+          <h2 className="text-2xl font-semibold text-black mb-4">Publications</h2>
           <div className="grid gap-6">
-            <div className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors">
+            <a href="https://www.amazon.co.jp/dp/4297138360" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
               <h3 className="text-xl font-medium text-black mb-2">テスト自動化実践ガイド</h3>
               <p className="text-gray-600">ソフトウェアテスト自動化の実践的な手法をまとめた書籍を執筆</p>
-            </div>
-            <div className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors">
-              <h3 className="text-xl font-medium text-black mb-2">Community Activities</h3>
-              <p className="text-gray-600">JaSST Online、Tokyo Test Festの実行委員として活動</p>
-            </div>
+            </a>
+            <a href="https://www.oreilly.co.jp/books/9784814400591/" target="_blank" rel="noopener noreferrer" className="border border-gray-200 rounded-lg p-6 hover:border-gray-300 transition-colors block">
+              <h3 className="text-xl font-medium text-black mb-2">フルスタックテスティング</h3>
+              <p className="text-gray-600">Janet Gregory & Lisa Crispin著 - 日本語版レビュアー</p>
+            </a>
           </div>
         </section>
 
@@ -97,27 +79,21 @@ export default function Home() {
                 <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">9.2M/year</span>
               </div>
               <div className="space-y-3">
-                <div>
-                  <p className="text-sm font-medium text-gray-900 mb-2">募集職種</p>
-                  <div className="space-y-3">
-                    <div className="flex items-start gap-3">
-                      <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
-                      <div>
-                        <p className="font-medium text-gray-900 text-sm">QA・自動テストリード</p>
-                        <p className="text-gray-600 text-sm">品質保証戦略の策定と自動テスト基盤の構築</p>
-                      </div>
-                    </div>
-                    <div className="flex items-start gap-3">
-                      <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
-                      <div>
-                        <p className="font-medium text-gray-900 text-sm">DevOpsエンジニア</p>
-                        <p className="text-gray-600 text-sm">CI/CDパイプラインの構築と開発生産性の向上</p>
-                      </div>
-                    </div>
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                  <div>
+                    <p className="font-medium text-gray-900 text-sm">QA・自動テストリード</p>
+                    <p className="text-gray-600 text-sm">品質保証戦略の策定と自動テスト基盤の構築</p>
                   </div>
                 </div>
-                <div>
-                  <p className="text-sm font-medium text-gray-900 mb-1">応募条件</p>
+                <div className="flex items-start gap-3">
+                  <div className="w-5 h-5 rounded-full bg-gray-900 mt-0.5 flex-shrink-0"></div>
+                  <div>
+                    <p className="font-medium text-gray-900 text-sm">DevOpsエンジニア</p>
+                    <p className="text-gray-600 text-sm">CI/CDパイプラインの構築と開発生産性の向上</p>
+                  </div>
+                </div>
+                <div className="mt-4">
                   <p className="text-gray-700 text-sm">
                     末村とぜひ働きたいと思う方からのお声がけのみお受けします
                     <span className="text-gray-500">（直接の知り合いでなくても可）</span>
