@@ -162,9 +162,9 @@ export default function Home() {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-2xl font-semibold text-black mb-4">品質・自動テストに関するオンラインディスカッション</h2>
+          <h2 className="text-2xl font-semibold text-black mb-4">Want to talk to me?</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            品質・自動テストに関するオンラインディスカッションを受け付けています（無料・30分）
+            オンラインディスカッションを受け付けています（無料・30分）
           </p>
           <div className="border border-gray-200 rounded-lg overflow-hidden">
             <iframe 
