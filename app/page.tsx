@@ -103,7 +103,7 @@ export default function Home() {
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-medium text-black">フルタイム</h3>
-                <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">9.2M/year</span>
+                <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">¥9.2M/year 以上</span>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
@@ -120,19 +120,13 @@ export default function Home() {
                     <p className="text-gray-600 text-sm">CI/CDパイプラインの構築と開発生産性の向上</p>
                   </div>
                 </div>
-                <div className="mt-4">
-                  <p className="text-gray-700 text-sm">
-                    末村とぜひ働きたいと思う方からのお声がけのみお受けします
-                    <span className="text-gray-500">（直接の知り合いでなくても可）</span>
-                  </p>
-                </div>
               </div>
             </div>
             
             <div className="border border-gray-200 rounded-lg p-6">
               <div className="flex items-center justify-between mb-3">
                 <h3 className="text-xl font-medium text-black">副業・業務委託</h3>
-                <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">30k/hour</span>
+                <span className="text-sm font-medium bg-gray-100 text-gray-800 px-3 py-1 rounded-full">¥30k/hour 以上</span>
               </div>
               <div className="space-y-3">
                 <div className="flex items-start gap-3">
