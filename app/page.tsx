@@ -17,11 +17,15 @@ export default function Home() {
         <section className="mb-12">
           <h2 className="text-2xl font-semibold text-black mb-4">About</h2>
           <p className="text-gray-700 leading-relaxed">
-            テスト自動化、品質保証、DevOps、スクラムを専門とするソフトウェアエンジニアです。
-            開発とQAの分離解消、頻発するシステム障害を減らすためのアジャイル開発プロセス改善、
-            テスト自動化の価値と投資価値の実証など、組織の課題解決に取り組んでいます。
-            Software Engineer in Test（SET）として、E2Eテストやテスト自動化基盤の構築・運用に豊富な経験を持ち、
-            BDD/ATDDの実践にも精通しています。
+            自動テスト、品質保証、DevOps、スクラムなどに強みを持つソフトウェアエンジニアです。プロセス改善や、プロセスと事業の結びつきに強い関心があり、次のような課題解決に貢献できます:
+          </p>
+          <ul className="list-disc list-inside text-gray-700 leading-relaxed mt-3 space-y-2">
+            <li>開発とQAの間に垣根があり、「わたし作る人、あなたテストする人」のようになってしまっている。</li>
+            <li>アジャイル開発をしているが、障害が頻繁に起きたり、障害が怖くてリリースがしづらくなっている。</li>
+            <li>自動テストなどの取り組みを進めたいが、投資対効果が分かりにくく、会社として投資をしづらい。</li>
+          </ul>
+          <p className="text-gray-700 leading-relaxed mt-3">
+            また、SET（Software Engineer in Test）としての経験が豊富で、自動テスト基盤の構築と運用、トラブルシュートなどに高い専門性を有しています。特にE2Eテスト（システムテスト、受け入れテスト）領域における経験が豊富で、BDD/ATDDなどのプラクティスに関する知識もあります。
           </p>
         </section>
 
